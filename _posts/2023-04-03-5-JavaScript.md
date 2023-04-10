@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "javascript "
+title: "javascript - 탄생"
 categories: Javascript
 tag: Javascript
 toc: true
