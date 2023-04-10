@@ -199,7 +199,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/seoul
+# timezone: Asia/seoul
 
 # Plugins (previously gems:)
 plugins:
@@ -241,9 +241,9 @@ jekyll-archives:
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
-  # permalinks:
-  #   category: /categories/:name/
-  #   tag: /tags/:name/
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
